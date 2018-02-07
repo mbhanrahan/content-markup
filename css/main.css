@@ -7,11 +7,34 @@ selector {
 */
 
 mark {
-background-color: pink;
+background-color: #ffc;
 }
+
+ins {
+  color: #ffc;
+}
+
+/* hexadecimal color: Black to White, with grayscale inbetween
+0123456789abcdef
+*/
+
+/* --- class selector --- */
+  .underline {
+    text-decoration: underline;
+  }
+
+  .italic {
+    font-style: italic;
+  }
+
+  .small-caps {
+    font-variant: small-caps;
+  }
+  
+  /*
 
 /* class selector */
-
+/*
 .redlining {
   color:red;
-}
+} */
