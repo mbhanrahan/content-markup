@@ -4,7 +4,51 @@ selector {
   property: value;
   property: value;
 }
+
+------- 1em=16px
+
 */
+
+body {
+  width: 90%;
+  max-width: 48em;
+  margin: 0 auto;
+}
+
+.hr {
+  padding-top: .125em;
+  border-top: .125em dotted #000;
+  border-bottom: .125em double #000;
+  margin-top: 5%;
+}
+
+/* header {
+  padding-top: .125em;
+  border-top: .125em dotted #000;
+  margin-top: 5%;
+}
+
+header h1 {
+  padding-top: .5em;
+  border-top: .125em double #000;
+  margin-top: 0;
+} */
+
+main {
+  padding: 3em;
+  border: 2em solid #999;
+}
+
+.redline-callout {
+  /* border-width: 0 0 0 .125em;
+  border-style: solid;
+  border-color: #f00; */
+  /*padding: 0 0 0 1em;*/
+  padding-left: 1em;
+  border-left: .125em solid #f00;
+  margin-left: -1.125em;
+}
+
 
 mark {
 background-color: #ffc;
@@ -30,7 +74,7 @@ ins {
   .small-caps {
     font-variant: small-caps;
   }
-  
+
   /*
 
 /* class selector */
